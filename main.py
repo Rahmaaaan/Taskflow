@@ -16,12 +16,12 @@ def find_highest_bidder(bidding_record):
     if bid_amount > highest_bid:
       highest_bid = bid_amount
       highest_bidder = bidder
-  print(f"The winner is {highest_bidder} with a bid of ${highest_bid}")
+  print(f"The winner is {highest_bidder} with a bid of ₹{highest_bid}")
 
 while auction_open:
   name = input("What is your name? \n")
   print("\n What is your bid price?")
-  price = int(input("$"))
+  price = int(input("₹"))
   # we entered bid into empty dictinory {}[a] = 12
   bidding_record[name] = price
   should_continue = input("\n Are they any other bidders? \n Enter 'yes' or 'no' \n").lower()
