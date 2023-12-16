@@ -13,13 +13,21 @@ export const Heading = () => {
 
   return (
     <div className="max-w-3xl space-y-4">
-      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
-        Your Ideas, Documents, & Plans. Unified. Welcome to <span className="underline">Taskflow</span>
+      <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold">
+        Welcome to Taskflow 🚀
       </h1>
-      <h3 className="text-base sm:text-xl md:text-2xl font-medium">
-        Taskflow is the connected workspace where <br />
-        better, faster work happens.
+      <br /><br />
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium">
+        Integrate, Create, Collaborate <br/> Your Unified Workspace Solution.
+      </h2>
+      <br />
+      <br />
+      <h3 className="text-base sm:text-xl md:text-2xl font-normal">
+        Taskflow streamlines work by seamlessly blending note-taking, project
+        management and collaboration tools in a single, versatile
+        platform. Embrace flexibility in organizing information effortlessly.
       </h3>
+      <br/>
       {isLoading && (
         <div className="w-full flex items-center justify-center">
           <Spinner size="lg" />
@@ -42,5 +50,5 @@ export const Heading = () => {
         </SignInButton>
       )}
     </div>
-  )
-}
+  );
+};
