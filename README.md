@@ -22,62 +22,24 @@ The technologies and tools used to develop this project are:
 - Edge store
 - Convex
 
-## Getting Started
+## Instllation
 
-Follow these steps to get the project up and running on your local machine for development and testing:
-
-### Prerequisites
-
-Ensure the following requirements are met:
-
-- Latest version of npm and Node.js installed.
-- Windows/Linux/Mac machine.
-
-### Installation
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/username/projectname.git
-   ```
-
-2. Move into the project directory
-
-   ```bash
-   cd projectname
-   ```
-
-3. Install the dependencies
-
-   ```bash
-   npm install
-   ```
-
-4. Start the Convex server
-
-   ```bash
-   npm convex dev
-   ```
-
-5. Start the web server
-
-   ```bash
-   npm run dev
-   ```
-
-   Open the link displayed in the terminal with your browser to view the result.
+For installation instructions, refer to the [Installation Guide](./Installation.md).
 
 ### Usage Guide
 
 To effectively utilize the platform, follow these steps:
 
 1. **Sign Up and Profile Completion**
+
    - Access the portal and complete your profile after signing up.
 
 2. **Workspace Creation and File Addition**
+
    - Create a workspace and add files relevant to your tasks.
 
 3. **Note Making**
+
    - Initiate your note-making process within the workspace.
 
 4. **Publish Your Work**
@@ -98,21 +60,21 @@ Contributions to Taskflow are welcome! To contribute, follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
 
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
 3. Make changes and commit them:
 
-    ```bash
-    git commit -m "Add your commit message here"
-    ```
+   ```bash
+   git commit -m "Add your commit message here"
+   ```
 
 4. Push your changes to your branch:
 
-    ```bash
-    git push origin feature/your-feature-name
-    ```
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
 5. Create a pull request on the main repository.
 
