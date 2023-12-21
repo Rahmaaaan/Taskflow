@@ -36,14 +36,21 @@ Before you begin, ensure your system meets these requirements:
 4. **Start the Convex Server**
 
    ```bash
-   npm run convex dev
+   npx convex dev
    ```
 
-5. **Set Up the .env File**
+5. **Note on Configuration File**
+
+   Move on to the subsequent steps if there isn't an existing `.env` file in the root directory. Otherwise, follow steps 8 through 10 to configure the necessary settings.
+
+6. **Set Up the .env File**
 
    Create a `.env` file in your root folder and add the following keys
 
    ```bash
+   CONVEX_DEPLOYMENT=
+   NEXT_PUBLIC_CONVEX_URL=
+
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
    CLERK_SECRET_KEY=
 
@@ -51,7 +58,16 @@ Before you begin, ensure your system meets these requirements:
    EDGE_STORE_SECRET_KEY=
    ```
 
-6. **Configure Authentication**
+7. **Configuring the Database**
+
+   Register for a Convex account. Retrieve the security keys and insert them into the `.env` file by providing the required details:
+
+   ```bash
+   CONVEX_DEPLOYMENT=
+   NEXT_PUBLIC_CONVEX_URL=
+   ```
+   
+8. **Configure Authentication**
 
    Sign up for a Clerk account. Add authentication factors like Google, GitHub, etc. Copy the security keys and paste them into the `.env` file
 
@@ -60,7 +76,7 @@ Before you begin, ensure your system meets these requirements:
    CLERK_SECRET_KEY=
    ```
 
-7. **Edge Store Account Registration**
+9. **Edge Store Integration**
 
    Register for an Edge Store account for banner image storage. Copy the security keys and paste them into the `.env` file
 
@@ -69,7 +85,7 @@ Before you begin, ensure your system meets these requirements:
    EDGE_STORE_SECRET_KEY=
    ```
 
-8. **Start the Web Server**
+10. **Start the Web Server**
 
    Open another terminal and run the following command for the server
 
