@@ -22,9 +22,9 @@ The technologies and tools used to develop this project are:
 - Edge store
 - Convex
 
-## Installat ion
+## Installation
 
-For installation instructions, refer to the [Installation Guide](./INSTALLATION.md).
+For installation instructions, refer to the [Installation Guide](./INSTAjjjLLATION.md).
 
 ### Usage Guide
 
