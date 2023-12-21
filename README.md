@@ -22,9 +22,9 @@ The technologies and tools used to develop this project are:
 - Edge store
 - Convex
 
-## Instllation
+## Installation
 
-For installation instructions, refer to the [Installation Guide](./Installation.md).
+For installation instructions, refer to the [Installation Guide](./INSTALLATION.md).
 
 ### Usage Guide
 
@@ -55,30 +55,7 @@ To effectively utilize the platform, follow these steps:
 
 ## Contributing
 
-Contributions to Taskflow are welcome! To contribute, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Make changes and commit them:
-
-   ```bash
-   git commit -m "Add your commit message here"
-   ```
-
-4. Push your changes to your branch:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. Create a pull request on the main repository.
-
-Please follow the project's coding guidelines and maintain a clean commit history.
+For contribution instructions, refer to the [Contribution Guide](./CONTRIBUTION.md).
 
 ## License
 
