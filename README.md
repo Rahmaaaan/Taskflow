@@ -24,7 +24,7 @@ The technologies and tools used to develop this project are:
 
 ## Installation
 
-For installation instructions, refer to the [Installation Guide](./INSTAjjjLLATION.md).
+For installation instructions, refer to the [Installation Guide](./INSTALLATION.md).
 
 ### Usage Guide
 
