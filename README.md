@@ -1,6 +1,6 @@
 # Taskflow
 
-Taskflow is a versatile productivity app that integrates various functionalities within a unified platform, catering to individual, team, and business workflows. With an array of features, it offers a seamless experience for creating documents, wikis, project boards, notes, and more.
+[Taskflow](https://taskflow-self.vercel.app/) is a versatile productivity app that integrates various functionalities within a unified platform, catering to individual, team, and business workflows. With an array of features, it offers a seamless experience for creating documents, wikis, project boards, notes, and more.
 
 ## Key Features
 
@@ -16,6 +16,7 @@ Taskflow is a versatile productivity app that integrates various functionalities
 The technologies and tools used to develop this project are:
 
 - TailwindCSS
+- Typescript
 - React
 - Next.js
 - Clerk

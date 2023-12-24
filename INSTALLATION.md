@@ -36,7 +36,7 @@ Before you begin, ensure your system meets these requirements:
 4. **Start the Convex Server**
 
    ```bash
-   npm run convex dev
+   npx convex dev
    ```
 
 5. **Set Up the .env File**
